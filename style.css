@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Montserrat:400,700');
+
+
+body {
+  margin: 0px;
+  font-weight: lighter;
+  font-family: "Lora", serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h2{
+  font-family: "Montserrat";
+  color: #A0A4C0;
+  font-weight: lighter;
+}
+
+a{
+  text-decoration: none;
+  font-style: italic;
+  font-size: 25px;
+  color: grey;
+  background-color: rgba(125, 255, 179, 0.2);
+}
+
+a:hover{
+  background-color: rgb(125, 255, 179);
+}
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.banner{
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  padding: 120px 0;
+  color: white;
+}
+
+.banner p{
+  font-size: 30px;
+  font-style: italic;
+  opacity: 0.6;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
+
